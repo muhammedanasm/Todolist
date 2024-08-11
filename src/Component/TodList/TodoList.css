@@ -1,0 +1,60 @@
+.todo-table {
+  width: 100%;
+}
+.Table-Parent {
+  position: relative;
+  top: -85px;
+  background: #fff;
+  border-radius: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid #e7edf4;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+
+.table-head {
+  border-right: 1px solid var(--table-stroke, #e7edf4);
+  border-bottom: 1px solid var(--table-stroke, #e7edf4);
+  background: var(--table-heading-bg, #f6f6f9);
+  font-family: "poppins";
+  color: #455173;
+  font-size: 15px;
+  text-align: left;
+}
+
+table {
+  border: none;
+}
+.q1_head1 {
+  border-top-left-radius: 8px;
+  border-left: none;
+  border-top: none;
+}
+.q1_head2 {
+  border-top-right-radius: 8px;
+  border-right: none;
+  border-top: none;
+}
+.completed td {
+  text-decoration: line-through;
+  color: #6c757d; /* Grey color */
+}
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.add-todo-button {
+  background: #28a745;
+  color: #fff;
+  padding: 13px 40px;
+  border: none;
+  border-radius: 3px;
+  font-family: "poppins";
+  cursor: pointer;
+}
